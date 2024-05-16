@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "name": "Geek T-Shirt",
+      "price": "19.99",
+      "image": "https://files.cdn.printful.com/o/upload/lpg-image-upload/f9/w38a/f96a9e768ae901679892602c8ce286d2__906",
+      "id": "1"
+    },
+    {
+      "name": "Geek Mug",
+      "price": "9.99",
+      "image": "https://www.enter.co/wp-content/uploads/2014/11/mug-dest-768x432.jpg",
+      "id": "2"
+    },
+    {
+      "name": "Geek Keyboard",
+      "price": "49.99",
+      "image": "https://m.media-amazon.com/images/I/71sBN50YWYL._AC_UF894,1000_QL80_.jpg",
+      "id": "3"
+    },
+    {
+      "name": "Geek Mouse",
+      "price": "29.99",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi7HCYr0yG-zFkF_f8GKS9dqspL_zE7n2E5AMBbzC9bQ&s",
+      "id": "4"
+    },
+    {
+      "id": "e231",
+      "name": "geek headphones",
+      "price": "40",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2CvVo7HMmEzYHs3QhzzFvzecadl1rNDfqN7J4p6RuWg&s"
+    },
+    {
+      "id": "de3d",
+      "name": "Geek PC",
+      "price": "1299.99",
+      "image": "https://tecnow.es/wp-content/uploads/2024/01/armado-pc-gamers-sp-digital-1000x600-1.jpg"
+    }
+  ]
+}

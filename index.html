@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel='preload' href='css/style.css' as='style'>
+    <link rel='stylesheet' href='css/style.css'>
+
+    <link rel='preload' href='css/normalize.css' as='style'>
+    <link rel='stylesheet' href='css/normalize.css'>
+
+    <link rel='icon' href='images/favicon.png' type='image/x-icon'>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Freeman&family=Jaro:opsz@6..72&display=swap" rel="stylesheet">
+
+    <title>Products JP</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+            <li class="navbar__item navbar__item--title"><a href="">AluraGeek</a></li>
+            <li class="navbar__item navbar__item--image"><a href="https://github.com/JuanesPachon" target="_blank"><img src="img/github.svg" alt=""></a></li>
+        </nav>
+    </header>
+
+    <main class="main">
+
+        <section class="main__empty-products">
+            <h2 class="empty-products__title">There's no products here!</h2>
+            <img class="empty-products__image" src="img/sad-message.svg" alt="Empty Box">
+        </section>
+
+        <section class="main__products">
+
+            <h2 class="products__title">Alura Products</h2>
+            <div class="products__container">
+
+
+            </div>
+            
+        </section>
+
+        <section class="main__form">
+            <h2 class="form__title">Add a product</h2>
+            <form class="form" method="post">
+                <input class="form__input form__input--name" type="text" placeholder="Name" name="name" required>
+                <input class="form__input form__input--price" type="text" placeholder="Price" name="price" required>
+                <input class="form__input form__input--image" type="text" placeholder="image" name="image" required>
+                <span class="form__error-message">Please type a valid url!</span>
+                <button class="form__button form__button--submit" type="submit">Add</button>
+                <button class="form__button form__button--reset" type="reset">Reset</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__title">AluraGeek</p>
+        <a class="footer__github-icon" href="https://github.com/JuanesPachon" target="_blank"><img src="img/github.svg" alt=""></a>
+    </footer>
+
+    <script type="module" src="js/connectAPI.js"></script>
+</body>
+
+</html>
