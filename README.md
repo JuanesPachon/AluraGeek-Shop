@@ -1,7 +1,7 @@
 # 🌐 AluraGeek Shop JP
 
 ## Descripción del Proyecto
-**Encriptador de Texto JP** es una página web diseñada para listar, crear y eliminar productos con solicitudes http. Este proyecto fue creado con el propósito de mejorar las habilidades de programación y lógica. Ademas de hacer parte del challenge #AluraGeek del programa ONE de Oracle y Alura Latam.
+**AluraGeek Shop JP** es una página web diseñada para listar, crear y eliminar productos con solicitudes http. Este proyecto fue creado con el propósito de mejorar las habilidades de programación y lógica. Ademas de hacer parte del challenge #AluraGeek del programa ONE de Oracle y Alura Latam.
 
 ## Tecnologías Utilizadas
 - **HTML**
